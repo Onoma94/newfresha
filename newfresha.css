@@ -1,0 +1,102 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+}
+
+#category{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.carousel{
+    display: flex;
+}
+
+#salon{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
+}
+
+.category{
+    width: calc(16.6666% + 0px);
+    display: inline-flex;
+    padding: 24px 12px;
+}
+
+.category .frame{
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: rgba(16, 25, 40, 0.08) 0px 4px 8px 0px;
+    cursor: pointer;
+}
+
+.salon{
+    border-radius: 4px;
+}
+
+.salon .frame{
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.frame img{
+    width: 100%;
+}
+
+.salon .frame img{
+
+    border-radius: 4px;
+}
+
+.title{
+    font-weight: 700;
+    display: inline-flex;
+    flex-direction: column;
+    color: #101928;
+    justify-content: center;
+}
+
+.category .title{
+    height: 56px;
+    font-size: 15px;
+    padding: 8px 16px;
+}
+
+.salon .title{
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.address{
+    color: rgb(135, 140, 147);
+    font-weight: 400;
+}
+
+.rating-data{
+    display: flex;
+}
+
+.star{
+    height: 16px;
+    width: 16px;
+    background-image: url("https://cdn-static.fresha.com/assets/54b46368713ea0e3a1a02a33c9552259.svg");
+}
+
+.rating{
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 15px;
+    font-weight: 700;
+}
