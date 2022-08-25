@@ -7,6 +7,10 @@ body{
     padding-right: 80px;
 }
 
+div{
+    color: #101928;
+}
+
 h1{
     font-size: 48px;
     font-weight: 800;
@@ -66,7 +70,6 @@ h1{
     font-weight: 700;
     display: inline-flex;
     flex-direction: column;
-    color: #101928;
     justify-content: center;
 }
 
@@ -108,6 +111,7 @@ h1{
 
 #opinion{
     display: flex;
+    margin-bottom: 120px;
 }
 
 .opinion{
@@ -118,7 +122,6 @@ h1{
 
 .opinion .frame{
     background-color: #F2F2F7;
-    color: #101928;
     border-radius: 16px;
     font-size: 15px;
     font-weight: 400;
@@ -168,4 +171,81 @@ h1{
     line-height: 21px;
     display: flex;
     margin-top: auto;
+}
+
+.arrow{
+    width: 24px;
+    height: 24px;
+}
+
+/* part 3 */
+
+#career{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #F2F2F7;;
+}
+
+p{
+    margin-bottom: 34px;
+}
+
+.right-column{
+    width: 50%;
+    margin-right: -62px;
+}
+
+.right-column img{
+    width: 100%;
+}
+
+.left-column{
+    padding-left: 120px;
+    padding-right: 120px;
+    width: 50%;
+    display: block;
+}
+
+.career{
+
+}
+
+.career .frame{
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: rgba(16, 25, 40, 0.08) 0px 4px 8px 0px;
+    background-color: #ffffff;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.location{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.offers{
+    line-height: 24px;
+    font-size: 17px;
+    color: rgb(3, 122, 255);
+    display: block;
+}
+
+.button{
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: rgba(16, 25, 40, 0.08) 0px 4px 8px 0px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    padding: 11px 15px;
+    display: inline-flex;
+    min-width: 0px;
 }
